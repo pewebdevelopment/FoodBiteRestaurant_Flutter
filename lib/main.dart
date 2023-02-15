@@ -13,7 +13,7 @@ void main() async {
   await EasyLocalization.ensureInitialized();
   runApp(
     EasyLocalization(
-      child: MyApp(),
+      child: MyApp(Hi),
       supportedLocales: [
         Locale('en', 'US'),
         Locale('de', 'DE'),
